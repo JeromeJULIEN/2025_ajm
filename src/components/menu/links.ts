@@ -4,6 +4,10 @@ const links = [
     href: "/club",
   },
   {
+    label: "Disciplines",
+    href: "/disciplines",
+  },
+  {
     label: "Planning",
     href: "/planning",
   },

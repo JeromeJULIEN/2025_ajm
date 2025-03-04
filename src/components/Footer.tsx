@@ -4,7 +4,7 @@ import links from "./menu/links";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col w-full gap-2 px-10 lg:px-24 py-4 shadow-up">
+    <div className="flex flex-col w-full gap-2 px-10  py-4 shadow-up">
       <div className="flex flex-col lg:flex-row w-full justify-between items-center gap-2 text-xs">
         {/* email contact */}
         <p className="flex gap-2">
@@ -26,12 +26,12 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-col  w-full justify-start lg:justify-between items-start gap-2 text-xs">
-        <p>
+      <div className="flex flex-col  w-full justify-center lg:justify-between items-start gap-2 text-xs">
+        <p className="flex gap-2 w-full justify-center lg:justify-start">
           Téléphone :{" "}
           <strong className="underline text-body">00 00 00 00 00</strong>
         </p>
-        <p className="flex gap-2">
+        <p className="flex gap-2 w-full justify-center lg:justify-start">
           Développé par :
           <a
             href="https://www.devvv3.com"

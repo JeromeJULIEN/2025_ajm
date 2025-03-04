@@ -37,7 +37,7 @@ const DesktopMenu = () => {
                 isActive(link.href)
                   ? " border-accentColor"
                   : "border-transparent"
-              } transition-all ease-in-out duration-300 hover:text-black hover:underline`}
+              } transition-all ease-in-out duration-300 hover:text-black`}
               key={link.href}
             >
               {link.label.toUpperCase()}
