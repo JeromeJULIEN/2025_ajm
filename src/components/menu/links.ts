@@ -1,15 +1,15 @@
 const links = [
   {
     label: "Le club",
-    href: "/",
+    href: "/club",
   },
   {
     label: "Planning",
-    href: "/",
+    href: "/planning",
   },
   {
     label: "Contact",
-    href: "/",
+    href: "/contact",
   },
 ];
 
