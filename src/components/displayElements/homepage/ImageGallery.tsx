@@ -9,7 +9,7 @@ const ImageGallery = () => {
   const images = [
     {
       src: "/images/judo.jpg",
-      title: "Judo",
+      title: "Judo / Jujitsu",
       href: "/judo",
     },
     {
@@ -82,12 +82,11 @@ const ImageGallery = () => {
             className="w-full h-[500px] object-cover"
           />
 
-          {!isMobile ||
-            (isMobile && hoveredIndex === index && (
-              <div className="absolute bottom-4 left-4 text-white text-2xl font-bold">
-                {image.title}
-              </div>
-            ))}
+          {(!isMobile || (isMobile && hoveredIndex === index)) && (
+            <div className="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold">
+              {image.title.toUpperCase()}
+            </div>
+          )}
         </Link>
       ))}
     </div>

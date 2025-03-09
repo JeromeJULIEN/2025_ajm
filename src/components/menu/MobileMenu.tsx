@@ -32,10 +32,10 @@ const MobileMenu = () => {
         </button>
         <Link href={"/"}>
           <Image
-            src={"/images/logo.webp"}
+            src={"/images/logo-leo.png"}
             alt="logo_ajm"
-            width={50}
-            height={50}
+            width={120}
+            height={120}
           />
         </Link>
       </div>

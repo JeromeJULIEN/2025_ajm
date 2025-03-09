@@ -22,10 +22,10 @@ const DesktopMenu = () => {
       <div className="fixed inset-0 flex justify-between items-center w-full h-20 px-10 pt-2 drop-shadow-lg  bg-mainColor  z-20 ">
         <Link href={"/"}>
           <Image
-            src={"/images/logo.webp"}
+            src={"/images/logo-leo.png"}
             alt="logo_ajm"
-            width={50}
-            height={50}
+            width={150}
+            height={150}
           />
         </Link>
 
