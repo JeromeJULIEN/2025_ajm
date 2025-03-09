@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const ImageGallery = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
 
   const images = [
     {
@@ -28,6 +29,37 @@ const ImageGallery = () => {
     },
   ];
 
+  useEffect(() => {
+    // Vérifier si on est sur mobile (largeur < 768px)
+    const checkMobile = () => {
+      const isMobileCheck = window.innerWidth < 768;
+      setIsMobile(isMobileCheck);
+      // Initialiser l'index à 1 si on est sur mobile
+      if (isMobileCheck) {
+        setHoveredIndex(1);
+      }
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+  useEffect(() => {
+    // Défilement automatique uniquement sur mobile
+    if (isMobile) {
+      const interval = setInterval(() => {
+        setHoveredIndex((current) => {
+          if (current === null) return 0;
+          return current === images.length - 1 ? 0 : current + 1;
+        });
+      }, 3000);
+
+      return () => clearInterval(interval);
+    }
+  }, [isMobile]);
+
   return (
     <div className="w-full flex transition-all duration-500 ease-in-out gap-2">
       {images.map((image, index) => (
@@ -50,9 +82,12 @@ const ImageGallery = () => {
             className="w-full h-[500px] object-cover"
           />
 
-          <div className="absolute bottom-4 left-4 text-white text-2xl font-bold">
-            {image.title}
-          </div>
+          {!isMobile ||
+            (isMobile && hoveredIndex === index && (
+              <div className="absolute bottom-4 left-4 text-white text-2xl font-bold">
+                {image.title}
+              </div>
+            ))}
         </Link>
       ))}
     </div>
