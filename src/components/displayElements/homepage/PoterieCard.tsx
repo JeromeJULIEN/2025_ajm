@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Title from "../Title";
 
 const PoterieCard = () => {
   return (
@@ -13,9 +14,7 @@ const PoterieCard = () => {
         />
       </div>
       <div className="w-full flex flex-col justify-start items-start gap-4">
-        <h3 className="text-2xl font-bold relative after:content-[''] after:absolute after:bottom-[-10px] after:left-0 after:w-[70px] after:h-[10px] after:bg-red-600 after:transform after:rotate-[-3deg]">
-          POTERIE
-        </h3>
+        <Title label="POTERIE" />
         <p className="text-body">
           Curabitur tellus magna, porttitor a, commodo a, commodo in, tortor.
           Donec interdum. Praesent scelerisque. Maecenas posuere sodales odio.
