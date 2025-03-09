@@ -4,7 +4,9 @@ const ClubBlock = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center items-center bg-black ">
       <div className="flex flex-col items-start justify-start gap-4 text-white p-10">
-        <h1 className="text-4xl font-bold">VOTRE CLUB DE JUDO À ENDOUME</h1>
+        <h1 className="text-4xl font-bold">
+          VOTRE CLUB LÉO LAGRANGE À ENDOUME
+        </h1>
         <p className="text-body">
           Curabitur tellus magna, porttitor a, commodo a, commodo in, tortor.
           Donec interdum. Praesent scelerisque. Maecenas posuere sodales odio.
@@ -17,7 +19,7 @@ const ClubBlock = () => {
         </p>
       </div>
       <Image
-        src="/images/tatamis.jpg"
+        src="/images/club.png"
         alt="judo"
         width={500}
         height={500}

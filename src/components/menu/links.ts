@@ -4,13 +4,22 @@ const links = [
     href: "/club",
   },
   {
-    label: "Disciplines",
-    href: "/disciplines",
+    label: "Judo / Jujitsu",
+    href: "/judo",
   },
   {
-    label: "Planning",
-    href: "/planning",
+    label: "Yoga",
+    href: "/yoga",
   },
+  {
+    label: "Gym",
+    href: "/gym",
+  },
+  {
+    label: "Poterie",
+    href: "/poterie",
+  },
+
   {
     label: "Contact",
     href: "/contact",

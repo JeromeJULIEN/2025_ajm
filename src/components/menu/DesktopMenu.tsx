@@ -29,7 +29,7 @@ const DesktopMenu = () => {
           />
         </Link>
 
-        <div className="flex justify-end items-center  text-h3  w-1/2 h-full">
+        <div className="flex justify-end items-center  text-h3  w-2/3 h-full">
           {links.map((link) => (
             <Link
               href={link.href}

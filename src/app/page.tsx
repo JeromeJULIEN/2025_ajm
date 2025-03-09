@@ -1,11 +1,12 @@
 import ClubBlock from "@/components/displayElements/homepage/ClubBlock";
+import ImageGallery from "@/components/displayElements/homepage/ImageGallery";
 import SportBlock from "@/components/displayElements/homepage/SportBlock";
-import VideoHomepage from "@/components/displayElements/homepage/VideoHomepage";
 
 export default function Home() {
   return (
     <div className="flex flex-col  items-center justify-start">
-      <VideoHomepage />
+      {/* <VideoHomepage /> */}
+      <ImageGallery />
       <ClubBlock />
       <SportBlock />
     </div>
