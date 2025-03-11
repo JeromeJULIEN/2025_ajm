@@ -23,7 +23,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Club Léo Lagrange multi-activités à Endoume, Marseille",
   description:
-    "Venez découvrir un club multi-activités familial à Endoume, Marseille : Judo, Jujitsu, Yoga, Qi Gong, Gym, Poterie",
+    "Venez découvrir un club multi-activités familial à Endoume, Marseille : AJM Judo et Jujitsu, Yoga, Qi Gong, Gym, Poterie",
 };
 
 export default function RootLayout({
