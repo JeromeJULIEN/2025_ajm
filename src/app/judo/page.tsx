@@ -66,8 +66,8 @@ const page = () => {
             <p className="text-body">
               Ces activités sont réalisés dans le cadre de l&apos;AJM
               (Association Judo Marseille) créée par Bernard TCHOULLOUYAN
-              (champion du monde 1981) et Jean-Louis GRECH (toujours professeur
-              au sein du club).
+              (champion du monde 1981) et Jean-Louis GRECH (6ème Dan, toujours
+              professeur au sein du club).
             </p>
           </div>
         </div>
