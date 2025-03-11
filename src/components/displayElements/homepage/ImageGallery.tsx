@@ -19,8 +19,8 @@ const ImageGallery = () => {
     },
     {
       src: "/images/qigong.jpg",
-      title: "Qi Jong",
-      href: "/qijong",
+      title: "Qi Gong",
+      href: "/qigong",
     },
     {
       src: "/images/gym.jpg",
