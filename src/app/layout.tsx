@@ -21,9 +21,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Club de Judo AJM à Endoume, Marseille",
+  title: "Club Léo Lagrange multi-activités à Endoume, Marseille",
   description:
-    "Venez découvrir le judo et jujitsu dans un club familial à Endoume, Marseille",
+    "Venez découvrir un club multi-activités familial à Endoume, Marseille : Judo, Jujitsu, Yoga, Qi Gong, Gym, Poterie",
 };
 
 export default function RootLayout({
