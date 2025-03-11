@@ -31,7 +31,7 @@ const page = () => {
               src="/logoAJM.png"
               alt="logo AJM"
               fill
-              className="object-cover"
+              className="object-contain"
             />
           </div>
           <div className="flex flex-col gap-4 items-start justify-start mb-10 w-full md:w-4/5">
