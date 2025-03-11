@@ -1,4 +1,5 @@
 import ButtonLabel from "@/components/displayElements/ButtonLabel";
+import ButtonLabelBig from "@/components/displayElements/ButtonLabelBig";
 import Title from "@/components/displayElements/Title";
 
 const page = () => {
@@ -10,7 +11,9 @@ const page = () => {
         className="w-full h-[300px] md:h-[500px] object-cover"
       />
       <div className="absolute top-8 left-10 flex flex-col gap-4 items-start justify-start">
-        <h1 className="text-4xl font-bold text-white">YOGA KUNDALINI</h1>
+        <h1 className="text-4xl font-bold text-white w-full  pr-10">
+          YOGA KUNDALINI
+        </h1>
         <a
           href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/448690-q-yoga-kundalini?header=%2Fpage%2F2889342-yoga"
           target="_blank"
@@ -76,7 +79,7 @@ const page = () => {
           rel="noopener noreferrer"
           className="cursor-pointer w-full flex justify-center mt-10"
         >
-          <ButtonLabel label="M'inscrire" />
+          <ButtonLabelBig label="M'inscrire" />
         </a>
       </div>
     </div>

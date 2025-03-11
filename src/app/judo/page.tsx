@@ -1,5 +1,7 @@
 import ButtonLabel from "@/components/displayElements/ButtonLabel";
+import ButtonLabelBig from "@/components/displayElements/ButtonLabelBig";
 import Title from "@/components/displayElements/Title";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -20,38 +22,55 @@ const page = () => {
           <ButtonLabel label="M'inscrire" />
         </a>
       </div>
-      <div className="p-10 flex flex-col gap-4 items-start justify-start">
+      <div className="p-10 flex flex-col gap-4 items-start justify-start w-full">
         {/* description */}
         <Title label="Description" />
-        <div className="flex flex-col gap-4 items-start justify-start mb-10">
-          <p className="text-body ">
-            Au sein de notre club, le Judo et le Jujitsu se pratiquent dans un
-            esprit de convivialité et de partage, où chacun progresse à son
-            rythme. Ici, pas d’obligation de compétition : l’essentiel est de
-            découvrir, d’apprendre et de se dépasser, tout en respectant les
-            valeurs fondamentales de ces disciplines.
-          </p>
-          <p className="text-body">
-            Pour les compétiteurs, pas d&apos;inquiétude ! Vous trouverez
-            également de bons partenaires pour vous pousser à vous dépasser.
-          </p>
-          <p className="text-body">
-            Nos cours sont ouverts à tous, des plus jeunes aux adultes, avec des
-            groupes adaptés à chaque niveau. Les séances sont encadrées par des
-            professeurs passionnés, soucieux de transmettre technique, confiance
-            en soi et entraide. Que vous soyez débutant ou confirmé, vous
-            trouverez votre place sur le tatami.
-          </p>
-          <p className="text-body ">
-            Au-delà des entraînements, notre club est un lieu d’échange et de
-            rencontres, où règne un véritable esprit de famille. Evénements et
-            moments de convivialité rythment l’année, renforçant le lien entre
-            les pratiquants.
-          </p>
-          <p className="text-body">
-            Venez essayer, progresser et partager un art martial riche de sens,
-            dans une ambiance chaleureuse et bienveillante !
-          </p>
+        <div className="flex flex-col md:flex-row gap-4 items-start justify-start mb-10 w-full">
+          <div className="relative w-full md:w-1/5 aspect-square">
+            <Image
+              src="/images/logoAJM.png
+              "
+              alt="Judo"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="flex flex-col gap-4 items-start justify-start mb-10 w-full md:w-4/5">
+            <p className="text-body ">
+              Au sein de notre club, le Judo et le Jujitsu se pratiquent dans un
+              esprit de convivialité et de partage, où chacun progresse à son
+              rythme. Ici, pas d’obligation de compétition : l’essentiel est de
+              découvrir, d’apprendre et de se dépasser, tout en respectant les
+              valeurs fondamentales de ces disciplines.
+            </p>
+            <p className="text-body">
+              Pour les compétiteurs, pas d&apos;inquiétude ! Vous trouverez
+              également de bons partenaires pour vous pousser à vous dépasser.
+            </p>
+            <p className="text-body">
+              Nos cours sont ouverts à tous, des plus jeunes aux adultes, avec
+              des groupes adaptés à chaque niveau. Les séances sont encadrées
+              par des professeurs passionnés, soucieux de transmettre technique,
+              confiance en soi et entraide. Que vous soyez débutant ou confirmé,
+              vous trouverez votre place sur le tatami.
+            </p>
+            <p className="text-body ">
+              Au-delà des entraînements, notre club est un lieu d’échange et de
+              rencontres, où règne un véritable esprit de famille. Evénements et
+              moments de convivialité rythment l’année, renforçant le lien entre
+              les pratiquants.
+            </p>
+            <p className="text-body">
+              Venez essayer, progresser et partager un art martial riche de
+              sens, dans une ambiance chaleureuse et bienveillante !
+            </p>
+            <p className="text-body">
+              Ces activités sont réalisés dans le cadre de l&apos;AJM
+              (Association Judo Marseille) créée par Bernard TCHOULLOUYAN
+              (champion du monde 1981) et Jean-Louis GRECH (toujours professeur
+              au sein du club).
+            </p>
+          </div>
         </div>
         {/* horaires */}
         <Title label="Horaires" />
@@ -128,7 +147,7 @@ const page = () => {
           rel="noopener noreferrer"
           className="cursor-pointer w-full flex justify-center mt-10"
         >
-          <ButtonLabel label="M'inscrire" />
+          <ButtonLabelBig label="M'inscrire" />
         </a>
       </div>
     </div>

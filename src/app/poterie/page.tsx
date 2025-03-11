@@ -1,4 +1,5 @@
 import ButtonLabel from "@/components/displayElements/ButtonLabel";
+import ButtonLabelBig from "@/components/displayElements/ButtonLabelBig";
 import Title from "@/components/displayElements/Title";
 
 const page = () => {
@@ -80,7 +81,7 @@ const page = () => {
           rel="noopener noreferrer"
           className="cursor-pointer w-full flex justify-center mt-10"
         >
-          <ButtonLabel label="M'inscrire" />
+          <ButtonLabelBig label="M'inscrire" />
         </a>
       </div>
     </div>
