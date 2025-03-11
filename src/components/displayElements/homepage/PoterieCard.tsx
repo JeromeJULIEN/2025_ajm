@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Title from "../Title";
+import ButtonLabel from "../ButtonLabel";
 
 const PoterieCard = () => {
   return (
@@ -16,15 +17,15 @@ const PoterieCard = () => {
       <div className="w-full flex flex-col justify-start items-start gap-4">
         <Title label="POTERIE" />
         <p className="text-body">
-          Curabitur tellus magna, porttitor a, commodo a, commodo in, tortor.
-          Donec interdum. Praesent scelerisque. Maecenas posuere sodales odio.
-          Vivamus metus lacus, varius quis, imperdiet quis, rhoncus a, turpis.
+          Laissez libre cours à votre imagination et façonnez la terre à votre
+          rythme. Que vous soyez débutant ou passionné, nos ateliers vous
+          offrent un moment de création et de plaisir dans une ambiance
+          conviviale.
+          <br />
+          Venez modeler, sculpter et donner vie à vos idées !
         </p>
-        <Link
-          className="bg-red-600 px-4 py-2 text-xl text-white font-bold"
-          href={"/poterie"}
-        >
-          Découvrir
+        <Link href={"/poterie"}>
+          <ButtonLabel label="Découvrir" />
         </Link>
       </div>
       <div className="w-full md:w-1/2 relative h-[300px] md:hidden block">

@@ -7,12 +7,12 @@ const page = () => {
       <img
         src="/images/judoPage.jpg"
         alt="Judo banner"
-        className="w-full h-[300px] md:h-[400px] object-cover"
+        className="w-full h-[300px] md:h-[500px] object-cover"
       />
       <div className="absolute top-8 left-10 flex flex-col gap-4 items-start justify-start">
         <h1 className="text-4xl font-bold text-white">JUDO / JUJITSU</h1>
         <a
-          href="https://leo-lagrange-64c2d426da138.assoconnect.com/page/2395750-presentation"
+          href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/448805-e-judo-jujitsu-1er-mars?header=%2Fpage%2F2401888-judo-jujitsu"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"
@@ -23,24 +23,36 @@ const page = () => {
       <div className="p-10 flex flex-col gap-4 items-start justify-start">
         {/* description */}
         <Title label="Description" />
-        <p className="text-body mb-10">
-          Lorem ipsum dolor sit amet. Aut facere doloremque et enim ullam et
-          nostrum sapiente hic quia quae ut fuga laboriosam! In libero quidem
-          vel nemo consequuntur est temporibus consectetur vel maiores harum eos
-          fugit voluptatem sit neque eveniet sit pariatur tempore. Aut omnis
-          inventore id aliquid galisum aut placeat adipisci eum possimus
-          recusandae nam suscipit nulla ea architecto delectus. Nam pariatur
-          eius aut itaque voluptatem aut autem vero. Eum placeat exercitationem
-          a nemo assumenda cum earum odio a accusantium dolores aut fugiat
-          nostrum aut alias sint sit ipsum error. Ut possimus dolores aut
-          asperiores commodi ut pariatur reprehenderit. Vel obcaecati repellat a
-          quos necessitatibus id fugit vitae est odit voluptas nam doloremque
-          nulla est tenetur dolore. Sed expedita dolor et modi esse aut dolorem
-          labore et animi ratione. Ut dolore repellat quo expedita quae id
-          temporibus unde et consequatur quam et autem quaerat. Quo expedita
-          harum qui quae omnis aut galisum eveniet ea autem Quis qui voluptas
-          quisquam est minus obcaecati!
-        </p>
+        <div className="flex flex-col gap-4 items-start justify-start mb-10">
+          <p className="text-body ">
+            Au sein de notre club, le Judo et le Jujitsu se pratiquent dans un
+            esprit de convivialité et de partage, où chacun progresse à son
+            rythme. Ici, pas d’obligation de compétition : l’essentiel est de
+            découvrir, d’apprendre et de se dépasser, tout en respectant les
+            valeurs fondamentales de ces disciplines.
+          </p>
+          <p className="text-body">
+            Pour les compétiteurs, pas d&apos;inquiétude ! Vous trouverez
+            également de bons partenaires pour vous pousser à vous dépasser.
+          </p>
+          <p className="text-body">
+            Nos cours sont ouverts à tous, des plus jeunes aux adultes, avec des
+            groupes adaptés à chaque niveau. Les séances sont encadrées par des
+            professeurs passionnés, soucieux de transmettre technique, confiance
+            en soi et entraide. Que vous soyez débutant ou confirmé, vous
+            trouverez votre place sur le tatami.
+          </p>
+          <p className="text-body ">
+            Au-delà des entraînements, notre club est un lieu d’échange et de
+            rencontres, où règne un véritable esprit de famille. Evénements et
+            moments de convivialité rythment l’année, renforçant le lien entre
+            les pratiquants.
+          </p>
+          <p className="text-body">
+            Venez essayer, progresser et partager un art martial riche de sens,
+            dans une ambiance chaleureuse et bienveillante !
+          </p>
+        </div>
         {/* horaires */}
         <Title label="Horaires" />
         <p>JUDO</p>
@@ -111,7 +123,7 @@ const page = () => {
         </p>
         {/* inscription */}
         <a
-          href="https://leo-lagrange-64c2d426da138.assoconnect.com/page/2395750-presentation"
+          href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/448805-e-judo-jujitsu-1er-mars?header=%2Fpage%2F2401888-judo-jujitsu"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer w-full flex justify-center mt-10"

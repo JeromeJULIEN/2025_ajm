@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Title from "../Title";
+import ButtonLabel from "../ButtonLabel";
 
 const JudoCard = () => {
   return (
@@ -8,15 +9,16 @@ const JudoCard = () => {
       <div className="w-full flex flex-col justify-start items-start gap-4">
         <Title label="JUDO / JUJITSU" />
         <p className="text-body">
-          Curabitur tellus magna, porttitor a, commodo a, commodo in, tortor.
-          Donec interdum. Praesent scelerisque. Maecenas posuere sodales odio.
-          Vivamus metus lacus, varius quis, imperdiet quis, rhoncus a, turpis.
+          Venez pratiquer le Judo (柔道, &quot;la voie de la souplesse&quot;) et
+          le Jujitsu (柔術, &quot;l&apos;art de la souplesse&quot;), deux
+          disciplines ancestrales qui allient technique, contrôle et respect.{" "}
+          <br />
+          Que vous soyez débutant ou confirmé, nos cours sont ouverts à tous,
+          dans une ambiance conviviale et dynamique. Rejoignez-nous sur le
+          tatami et découvrez la richesse de ces arts martiaux !
         </p>
-        <Link
-          className="bg-red-600 px-4 py-2 text-xl text-white font-bold"
-          href={"/judo"}
-        >
-          Découvrir
+        <Link href={"/judo"}>
+          <ButtonLabel label="Découvrir" />
         </Link>
       </div>
       <div className="w-full md:w-1/2 relative h-[300px]">

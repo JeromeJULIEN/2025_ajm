@@ -10,11 +10,11 @@ const Footer = () => {
         <p className="flex gap-2">
           Mail :
           <a
-            href="mailto:contact@ajm.fr"
+            href="mailto:leolagrangeendoume@free.fr"
             className=" underline"
             target="_blank"
           >
-            contact@ajm.fr
+            leolagrangeendoume@free.fr
           </a>
         </p>
         {/* menu reminder */}
@@ -29,7 +29,9 @@ const Footer = () => {
       <div className="flex flex-col  w-full justify-center lg:justify-between items-start gap-2 text-xs">
         <p className="flex gap-2 w-full justify-center lg:justify-start">
           Téléphone :{" "}
-          <strong className="underline text-body">00 00 00 00 00</strong>
+          <a href="tel:+33620021732" className="underline">
+            +33 6 20 02 17 32
+          </a>
         </p>
         <p className="flex gap-2 w-full justify-center lg:justify-start">
           Développé par :

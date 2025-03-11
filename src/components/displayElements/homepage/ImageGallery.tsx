@@ -13,9 +13,14 @@ const ImageGallery = () => {
       href: "/judo",
     },
     {
-      src: "/images/yoga.webp",
+      src: "/images/yogaPage.jpg",
       title: "Yoga",
       href: "/yoga",
+    },
+    {
+      src: "/images/qigong.jpg",
+      title: "Qi Jong",
+      href: "/qijong",
     },
     {
       src: "/images/gym.jpg",
