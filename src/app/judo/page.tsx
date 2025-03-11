@@ -28,9 +28,8 @@ const page = () => {
         <div className="flex flex-col md:flex-row gap-4 items-start justify-start mb-10 w-full">
           <div className="relative w-full md:w-1/5 aspect-square">
             <Image
-              src="/images/logoAJM.png
-              "
-              alt="Judo"
+              src="/logoAJM.png"
+              alt="logo AJM"
               fill
               className="object-cover"
             />
