@@ -107,22 +107,21 @@ const page = () => {
         <Title label="Tarifs" />
         <ul className="list-disc list-inside mb-10">
           <li>
-            <strong>Baby :</strong> 340 € l&apos;année
+            <strong>Baby judo et pré judo :</strong> 322 € l&apos;année
           </li>
           <li>
-            <strong>Pré judo :</strong> 340 € l&apos;année
+            <strong>Pré poussins à Adultes :</strong> 462 € l&apos;année
           </li>
           <li>
-            <strong>Pré poussins :</strong> 340 € l&apos;année
+            <strong>Tarif famille Baby judo et pré judo :</strong> 282 €
+            l&apos;année
           </li>
           <li>
-            <strong>Poussins :</strong> 340 € l&apos;année
+            <strong>Tarif famille Pré poussins à Adultes :</strong> 422 €
+            l&apos;année
           </li>
           <li>
-            <strong>Benjamins et Minimes :</strong> 340 € l&apos;année
-          </li>
-          <li>
-            <strong>Cadets / Juniors / Adultes :</strong> 340 € l&apos;année
+            <strong>Etudiant :</strong> 322 € l&apos;année
           </li>
         </ul>
         {/* contact */}

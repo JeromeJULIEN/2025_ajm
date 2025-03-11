@@ -42,22 +42,22 @@ const page = () => {
         <Title label="Tarifs" />
         <ul className="list-disc list-inside mb-10">
           <li>
-            <strong>Baby (4/5 ans):</strong> 165 € l&apos;année
+            <strong>Baby (4/5 ans):</strong> 360 € l&apos;année
           </li>
           <li>
-            <strong>Ados (6/16 ans) :</strong> 205 € l&apos;année
+            <strong>Ados (6/16 ans) :</strong> 450 € l&apos;année
           </li>
           <li>
-            <strong>Adultes (+16 ans):</strong> 245 € l&apos;année
+            <strong>Adultes (+16 ans):</strong> 540 € l&apos;année
           </li>
           <li>
-            <strong>Tarif famille Baby (4/5 ans):</strong> 145 € l&apos;année
+            <strong>Tarif famille Baby (4/5 ans):</strong> 320 € l&apos;année
           </li>
           <li>
-            <strong>Tarif famille Ados (6/16 ans) :</strong> 185 € l&apos;année
+            <strong>Tarif famille Ados (6/16 ans) :</strong> 410 € l&apos;année
           </li>
           <li>
-            <strong>Tarif famille Adultes (+16 ans):</strong> 225 € l&apos;année
+            <strong>Tarif famille Adultes (+16 ans):</strong> 500 € l&apos;année
           </li>
         </ul>
         {/* contact */}
