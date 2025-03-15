@@ -41,7 +41,7 @@ const ImageGallery = () => {
       setIsMobile(isMobileCheck);
       // Initialiser l'index à 1 si on est sur mobile
       if (isMobileCheck) {
-        setHoveredIndex(1);
+        setHoveredIndex(0);
       }
     };
 
