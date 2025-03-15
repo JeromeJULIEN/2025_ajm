@@ -55,7 +55,7 @@ const page = () => {
             </p>
             <p className="text-body ">
               Au-delà des entraînements, notre club est un lieu d’échange et de
-              rencontres, où règne un véritable esprit de famille. Evénements et
+              rencontres, où règne un véritable esprit de famille. Événements et
               moments de convivialité rythment l’année, renforçant le lien entre
               les pratiquants.
             </p>

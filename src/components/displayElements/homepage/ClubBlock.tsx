@@ -8,11 +8,11 @@ const ClubBlock = () => {
           VOTRE CLUB LÉO LAGRANGE À ENDOUME
         </h1>
         <p className="text-body">
-          Venez découvrir au coeur du quartier d&apos;endoume, un club familial
-          ! <br />
+          Venez découvrir au cœur du quartier d&apos;Endoume, un club familial !{" "}
+          <br />
           Actuellement dirigé par des passionnés de sport, et de loisir, qui
           sont avant tout des amis, voire une famille, le club Léo Lagrange
-          d&apos;endoume est le lieu idéal pour vos loisirs. <br /> Vous vous y
+          d&apos;Endoume est le lieu idéal pour vos loisirs. <br /> Vous vous y
           sentirez bien et vos enfants seront entre de bonnes mains.
         </p>
         <h2 className="text-2xl font-bold mt-10">Nos réseaux sociaux</h2>

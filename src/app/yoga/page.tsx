@@ -28,7 +28,7 @@ const page = () => {
         <Title label="Description" />
         <div className="flex flex-col gap-4 items-start justify-start mb-10">
           <p className="text-body ">
-            LE yoga KUNDALINI est une technologie holistique puissante qui
+            Le yoga KUNDALINI est une technologie holistique puissante qui
             travaille sur les différents plans de l’être à partir de séries
             (appelées » kriyas ») utilisant le souffle, le rythme, des postures
             dynamiques ou statiques, le son (sous forme de mantras), la
