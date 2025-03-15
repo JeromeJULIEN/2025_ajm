@@ -88,7 +88,7 @@ const ImageGallery = () => {
           />
 
           {(!isMobile || (isMobile && hoveredIndex === index)) && (
-            <div className="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold">
+            <div className="absolute inset-0 flex items-center text-center justify-center text-white text-3xl font-bold">
               {image.title.toUpperCase()}
             </div>
           )}
