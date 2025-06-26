@@ -29,8 +29,8 @@ const Footer = () => {
       <div className="flex flex-col  w-full justify-center lg:justify-between items-start gap-2 text-xs">
         <p className="flex gap-2 w-full justify-center lg:justify-start">
           Téléphone :{" "}
-          <a href="tel:+33620021732" className="underline">
-            +33 6 20 02 17 32
+          <a href="tel:+33491310433" className="underline">
+            04 91 31 04 33
           </a>
         </p>
         <p className="flex gap-2 w-full justify-center lg:justify-start">
