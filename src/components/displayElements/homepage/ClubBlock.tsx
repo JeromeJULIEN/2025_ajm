@@ -44,7 +44,7 @@ const ClubBlock = () => {
         </div>
       </div>
       <Image
-        src="/images/club.png"
+        src="/images/club.jpg"
         alt="judo"
         width={500}
         height={500}
