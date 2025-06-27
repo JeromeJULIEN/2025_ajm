@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "Club Léo Lagrange Endoume",
     images: [
       {
-        url: "/images/club.jpg",
+        url: "/images/open-graph.jpg",
         width: 1200,
         height: 691,
         alt: "Club Léo Endoume, Marseille",
