@@ -53,25 +53,21 @@ const page = () => {
         <Title label="Horaires" />
 
         <ul className="list-disc list-inside mb-10">
-          <li>Lundi 9h - 10h30 (1h30)</li>
-          <li>Mardi 9h - 10h (1h)</li>
-          <li>Jeudi 9h - 10h30 (1h30)</li>
+          <li>Mardi 12h30 - 13h30 (1h)</li>
+          <li>Nous contacter pour une plage horaire</li>
         </ul>
 
         {/* tarifs */}
         <Title label="Tarifs" />
         <ul className="list-disc list-inside mb-10">
           <li>
-            <strong>Cours à la demande 1h :</strong> 15 €
+            <strong>Abonnement annuel :</strong> 12€ la séance
           </li>
           <li>
-            <strong>Cours à la demande 1h30 :</strong> 20 €
+            <strong>Carnet de 20 séances :</strong> 15€ la séance
           </li>
           <li>
-            <strong>Formule 2 cours par semaine :</strong> 35 €
-          </li>
-          <li>
-            <strong>Formule 3 cours par semaine :</strong> 40 €
+            <strong>A l&apos;unité :</strong> 20€ la séance
           </li>
         </ul>
         {/* contact */}
@@ -90,7 +86,7 @@ const page = () => {
         </p>
         {/* inscription */}
         <a
-          href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/448699-q-qi-gong?header=%2Fpage%2F2888954-qi-gong"
+          href="https://leo-lagrange-64c2d426da138.assoconnect.com"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer w-full flex justify-center mt-10"

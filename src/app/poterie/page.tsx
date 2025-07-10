@@ -76,7 +76,7 @@ const page = () => {
         </p>
         {/* inscription */}
         <a
-          href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/499161-e-poterie-1er-mars?header=%2Fpage%2F2401882-poterie"
+          href="https://leo-lagrange-64c2d426da138.assoconnect.com"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer w-full flex justify-center mt-10"

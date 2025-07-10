@@ -63,7 +63,7 @@ const page = () => {
         </p>
         {/* inscription */}
         <a
-          href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/448697-q-gym?header=%2Fpage%2F2889344-gym"
+          href="https://leo-lagrange-64c2d426da138.assoconnect.com"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer w-full flex justify-center mt-10"

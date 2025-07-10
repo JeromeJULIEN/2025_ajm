@@ -76,32 +76,41 @@ const page = () => {
         <p>JUDO</p>
         <ul className="list-disc list-inside">
           <li>
-            <strong>Baby :</strong> Mercredi 16h - 17h
+            <strong>Baby :</strong> Mercredi 9h30 - 10h15
           </li>
           <li>
-            <strong>Pré judo :</strong> Mercredi 14h30 - 15h30
+            <strong>Pré judo 1:</strong> Mercredi 10h30 - 11h30
           </li>
           <li>
-            <strong>Pré poussins :</strong> Lundi 17h30 - 18h30 / Mercredi 17h30
-            - 18h30
+            <strong>Pré judo 2:</strong> Mercredi 14h00 - 15h00
           </li>
           <li>
-            <strong>Poussins :</strong> Mardi 17h30 - 18h30 / Jeudi 17h30 -
-            18h30
+            <strong>Pré judo 3:</strong> Mercredi 15h30 - 16h30
           </li>
           <li>
-            <strong>Benjamins et Minimes :</strong> Lundi 18h30 - 19h30 /
-            Mercredi 18h30 - 19h30
+            <strong>Pré poussins :</strong> Lundi et mercredi 17h30 - 18h30
           </li>
           <li>
-            <strong>Cadets / Juniors / Adultes :</strong> Mardi 19h - 20h30 /
-            Jeudi 19h - 20h30 / Vendredi 18h30 - 20h (cours compétitions et
-            technique)
+            <strong>Poussins :</strong> Mardi et jeudi 17h30 - 18h30
+          </li>
+          <li>
+            <strong>Benjamins et Minimes :</strong> Lundi et mercredi 18h30 -
+            19h30
+          </li>
+          <li>
+            <strong>Cadets / Juniors / Adultes :</strong> Mardi et jeudi 19h -
+            20h30 / Vendredi 18h30 - 20h (cours compétitions et technique)
+          </li>
+          <li>
+            <strong>
+              Cours compétition et technique (à partir de minime):
+            </strong>{" "}
+            Vendredi 18h30 - 20h
           </li>
         </ul>
         <p>JUJITSU</p>
         <ul className="list-disc list-inside mb-10">
-          <li>Lundi 19h30 - 21h / Jeudi (avec le judo) 19h - 21h</li>
+          <li>Lundi 19h30 - 21h / Jeudi 19h - 21h</li>
         </ul>
         {/* tarifs */}
         <Title label="Tarifs" />
@@ -140,7 +149,7 @@ const page = () => {
         </p>
         {/* inscription */}
         <a
-          href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/448805-e-judo-jujitsu-1er-mars?header=%2Fpage%2F2401888-judo-jujitsu"
+          href="https://leo-lagrange-64c2d426da138.assoconnect.com"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer w-full flex justify-center mt-10"
