@@ -99,7 +99,7 @@ const page = () => {
           </li>
           <li>
             <strong>Cadets / Juniors / Adultes :</strong> Mardi et jeudi 19h -
-            20h30 / Vendredi 18h30 - 20h (cours compétitions et technique)
+            20h30
           </li>
           <li>
             <strong>
