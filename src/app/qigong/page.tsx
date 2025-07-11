@@ -13,7 +13,7 @@ const page = () => {
       <div className="absolute top-8 left-10 flex flex-col gap-4 items-start justify-start">
         <h1 className="text-4xl font-bold text-white">QI GONG</h1>
         <a
-          href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/448699-q-qi-gong?header=%2Fpage%2F2888954-qi-gong"
+          href="https://leo-lagrange-64c2d426da138.assoconnect.com"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"
@@ -54,7 +54,7 @@ const page = () => {
 
         <ul className="list-disc list-inside mb-10">
           <li>Mardi 12h30 - 13h30 (1h)</li>
-          <li>Nous contacter pour une plage horaire</li>
+          <li>Nous contacter pour une autre plage horaire</li>
         </ul>
 
         {/* tarifs */}

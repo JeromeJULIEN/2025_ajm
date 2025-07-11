@@ -15,7 +15,7 @@ const page = () => {
           YOGA KUNDALINI
         </h1>
         <a
-          href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/448690-q-yoga-kundalini?header=%2Fpage%2F2889342-yoga"
+          href="https://leo-lagrange-64c2d426da138.assoconnect.com"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"
@@ -39,8 +39,9 @@ const page = () => {
         <Title label="Horaires" />
         <ul className="list-disc list-inside mb-10">
           <li>
-            Prabhu Ram Singh donne son cours les mercredis de 19h45 à 21h.
+            Prabhu Ram Singh donne son cours les mercredis de 19h45 à 21h15.
           </li>
+          <li>Nous contacter pour une autre plage horaire</li>
         </ul>
         {/* tarifs */}
         <Title label="Tarifs" />

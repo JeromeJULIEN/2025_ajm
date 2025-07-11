@@ -14,7 +14,7 @@ const page = () => {
       <div className="absolute top-8 left-10 flex flex-col gap-4 items-start justify-start">
         <h1 className="text-4xl font-bold text-white">JUDO / JUJITSU</h1>
         <a
-          href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/448805-e-judo-jujitsu-1er-mars?header=%2Fpage%2F2401888-judo-jujitsu"
+          href="https://leo-lagrange-64c2d426da138.assoconnect.com"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"

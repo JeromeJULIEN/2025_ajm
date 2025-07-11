@@ -13,7 +13,7 @@ const page = () => {
       <div className="absolute top-8 left-10 flex flex-col gap-4 items-start justify-start">
         <h1 className="text-4xl font-bold text-white">POTERIE</h1>
         <a
-          href="https://leo-lagrange-64c2d426da138.assoconnect.com/collect/description/499161-e-poterie-1er-mars?header=%2Fpage%2F2401882-poterie"
+          href="https://leo-lagrange-64c2d426da138.assoconnect.com"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"

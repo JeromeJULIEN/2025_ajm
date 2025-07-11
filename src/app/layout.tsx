@@ -21,6 +21,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.leolagrangeendoume.fr"),
   title: "Club Léo Lagrange multi-activités à Endoume, Marseille",
   description:
     "Venez découvrir un club multi-activités familial à Endoume, Marseille : AJM Judo et Jujitsu, Yoga, Qi Gong, Gym, Poterie",
@@ -57,7 +58,8 @@ export default function RootLayout({
           name="description"
           content="Venez découvrir un club multi-activités familial à Endoume, Marseille : AJM Judo et Jujitsu, Yoga, Qi Gong, Gym, Poterie"
         />
-
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://www.leolagrangeendoume.fr" />
         <meta property="og:type" content="website" />
@@ -69,8 +71,7 @@ export default function RootLayout({
           property="og:description"
           content="Venez découvrir un club multi-activités familial à Endoume, Marseille : AJM Judo et Jujitsu, Yoga, Qi Gong, Gym, Poterie"
         />
-        <meta property="og:image" content="" />
-
+        <meta property="og:image" content="/images/open-graph.jpg" />
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="leolagrangeendoume.fr" />
@@ -86,7 +87,7 @@ export default function RootLayout({
           name="twitter:description"
           content="Venez découvrir un club multi-activités familial à Endoume, Marseille : AJM Judo et Jujitsu, Yoga, Qi Gong, Gym, Poterie"
         />
-        <meta name="twitter:image" content="" />
+        <meta name="twitter:image" content="/images/open-graph.jpg" />
       </head>
       <body className={` ${montserrat.className} antialiased`}>
         <div className="flex flex-col justify-start min-h-screen bg-maincolor text-textColor-main ">
