@@ -37,7 +37,47 @@ const page = () => {
         </div>
         {/* horaires */}
         <Title label="Horaires" />
+        <div className="mb-6">
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold mb-2">
+              Adultes (séance de 2h30) :
+            </h3>
+            <ul className="list-disc list-inside ml-4">
+              <li>Lundi entre 14h30 et 19h30</li>
+              <li>Mardi 10h à 12h30</li>
+              <li>Mardi 13h30 à 16h</li>
+            </ul>
+          </div>
 
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold mb-2">
+              Enfants 6/9 ans (séance de 2h) :
+            </h3>
+            <ul className="list-disc list-inside ml-4">
+              <li>Mercredi 10h à 12h</li>
+              <li>Mercredi 14h à 16h</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold mb-2">Baby 4/5 ans :</h3>
+            <ul className="list-disc list-inside ml-4">
+              <li>Mercredi 10h à 11h</li>
+            </ul>
+          </div>
+
+          <div className="">
+            <h3 className="text-lg font-semibold mb-2">Ados +10 ans :</h3>
+            <ul className="list-disc list-inside ml-4">
+              <li>Mercredi 16h30 à 18h30</li>
+            </ul>
+          </div>
+        </div>
+        <p className="text-body mb-10">
+          Reprise le 10 septembre pour les enfants/baby/ados et le 15 pour les
+          adultes. Inscription du 1er octobre au 30 juin/ fermeture pendant les
+          vacances scolaires.
+        </p>
         {/* tarifs */}
         <Title label="Tarifs" />
         <ul className="list-disc list-inside mb-10">
